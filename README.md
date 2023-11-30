@@ -1,4 +1,4 @@
-# Monster Hunter World Web Scraping
+![Captura de pantalla de 2023-11-29 16-59-32](https://github.com/McMiguel2004/webb/assets/132393740/39fb2cb4-a151-4ef6-9cc7-41514a7dde76)# Monster Hunter World Web Scraping
 
 Este proyecto en Java utiliza técnicas de web scraping para recopilar información sobre monstruos en el juego "Monster Hunter World".
 
@@ -46,3 +46,6 @@ Para consultas o sugerencias, contáctanos en [mgomezalcantara@elpuig.xeill.com]
 ## Diagrama de Clases de MHW
 
 Se incluye un diagrama de clases que representa la estructura y relaciones de clases en el proyecto. 
+
+![Captura de pantalla de 2023-11-29 16-59-32](https://github.com/McMiguel2004/webb/assets/132393740/e040cfdc-e892-44fd-93a9-c7b7ca50ffb1)
+
