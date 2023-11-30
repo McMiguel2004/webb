@@ -1,4 +1,4 @@
-![Captura de pantalla de 2023-11-29 16-59-32](https://github.com/McMiguel2004/webb/assets/132393740/39fb2cb4-a151-4ef6-9cc7-41514a7dde76)# Monster Hunter World Web Scraping
+# Monster Hunter World Web Scraping
 
 Este proyecto en Java utiliza técnicas de web scraping para recopilar información sobre monstruos en el juego "Monster Hunter World".
 
