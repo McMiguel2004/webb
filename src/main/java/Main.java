@@ -62,9 +62,9 @@ public class Main {
                 }
             }
 
-            // Creación del archivo CSV para almacenar los datos
+            // Creación del archivo CSV para almacenar los datos con comillas como delimitador
             FileWriter csvWriter = new FileWriter("monstruos.csv");
-            csvWriter.append("Nombre,Imagen,Descripcion\n");
+            csvWriter.append("\"Nombre\",\"Imagen\",\"Descripcion\"\n");
 
             // Creación del documento XML para almacenar los datos
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -88,9 +88,9 @@ public class Main {
                     String descripcion = driver.findElement(By.tagName("blockquote")).findElement(By.tagName("p")).getText();
 
                     // Escritura de datos en el archivo CSV
-                    csvWriter.append(nombre).append(",");
-                    csvWriter.append(imagen).append(",");
-                    csvWriter.append(descripcion).append("\n");
+                    csvWriter.append("\"").append(nombre).append("\",");
+                    csvWriter.append("\"").append(imagen).append("\",");
+                    csvWriter.append("\"").append(descripcion).append("\"\n");
 
                     // Estructuración del documento XML
                     Element monsterElement = doc.createElement("Monstruo");
@@ -152,5 +152,5 @@ public class Main {
             e.printStackTrace();
         }
     }
-
 }
+
