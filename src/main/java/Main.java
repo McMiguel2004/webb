@@ -73,6 +73,10 @@ public class Main {
             Element rootElement = doc.createElement("Monstruos");
             doc.appendChild(rootElement);
 
+            /**
+             * Método principal para extraer los datos de la pagina.
+             */
+
             // Bucle para cada enlace de monstruo extraído
             for (String juegosLink : links) {
                 driver.get(juegosLink);
